@@ -9,5 +9,4 @@ public class Sek extends Currency{
 		return "Sek";
 	}
 
-
 }

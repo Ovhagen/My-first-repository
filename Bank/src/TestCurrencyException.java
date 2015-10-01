@@ -8,5 +8,4 @@ public class TestCurrencyException {
 			System.err.println(e.getMessage());
 		}
 	}
-
 }

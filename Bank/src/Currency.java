@@ -21,7 +21,7 @@ public abstract class Currency implements Comparable<Currency> {
 		
 	}
 
-	public boolean isSame(Currency c) {
+	public boolean isSame(Currency c){
 		return this.toString().equals(c.toString());
 	}
 

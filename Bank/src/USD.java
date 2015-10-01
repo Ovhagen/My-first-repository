@@ -8,5 +8,4 @@ public class USD extends Currency{
 	public String toString(){
 		return "USD";
 	}
-
 }
