@@ -1,12 +1,9 @@
 
-public class Test {
+public class TestCurrencyException {
 
 	public static void main(String[] args) {
-		Sek s = new Sek(1, 15);
-		Sek p = new Sek(1, 10);
-		USD d = new USD(8.5, 15);
 		try {
-			s.add(d);
+			throw new CurrencyException("U done fucked up");
 		} catch (CurrencyException e) {
 			System.err.println(e.getMessage());
 		}
