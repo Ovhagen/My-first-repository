@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Observable;
 
 public class Sheet extends Observable implements Environment {
 	private SlotFactory slotFactory = new SlotFactory();
